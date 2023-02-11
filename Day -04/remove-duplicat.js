@@ -4,3 +4,11 @@ Test:
 Input array: [8,7,8,1,2,5,1]
 Output array: [8,7,1,2,5]
 ==============================================================================================*/
+function removeDuplicateNumbers(arr) {
+    return [...new Set(arr)];
+  }
+  
+var numbers = [1, 2, 3, 3, 4, 4, 5, 5, 10];
+console.log(removeDuplicateNumbers(numbers));
+
+  
