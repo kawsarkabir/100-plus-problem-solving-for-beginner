@@ -1,5 +1,5 @@
 // sum of number 
-function sumOfNumber(number){
+/* function sumOfNumber(number){
   let sum = 0;
   for (let i = 0; i <= 10; i++){
     sum = sum + i;
@@ -7,7 +7,20 @@ function sumOfNumber(number){
   }
   return sum;
 }
-sumOfNumber();
+sumOfNumber(); */
+
+
+
+
+// multipication OF numbers 1-10
+function multipicationOfNumber(number){
+    let result =1;
+    for ( let i = 1; i<= 10; i++){
+        result *= i;
+    }
+    return result;
+}
+console.log(multipicationOfNumber());
 
 
 
